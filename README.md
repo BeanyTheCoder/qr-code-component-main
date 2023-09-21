@@ -15,9 +15,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process 🏗️](#my-process-🏗️)
   - [Built with 🛠️](#built-with-🛠️)
   - [What I learned 🧠](#what-i-learned-🧠)
-  - [Continued development 🚀](#continued-development-🚀)
-  - [Useful resources 📚](#useful-resources-📚)
-- [Acknowledgments 🙏](#acknowledgments-🙏)
 - [Contact 📧](#contact-📧)
 - [Author 👤](#author-👤)
 
@@ -30,16 +27,18 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Screenshots 📷
 
 _My solution (Desktop):_
+
 ![image of desktop solution](./readme-images/desktop.png)
 
-_My solution (Mobile)_
+_My solution (Mobile):_
+
 ![image of mobile solution](./readme-images/mobile.png)
 
 ### Links 🔗
 
-- Solution repo on Github: [here]()
-- Solution link on Front End Mentor: [here]()
-- Live site link: [here](beanythecoder.github.io/qr-code-component-main)
+- Solution repo on Github: [here](https://github.com/BeanyTheCoder/qr-code-component-main)
+- Solution link on Front End Mentor: [here](https://www.frontendmentor.io/solutions/qr-code-component-challenge-html-and-css-OTPOazYbaa)
+- Live site link: [here](https://beanythecoder.github.io/qr-code-component-main)
 
 ## My process 🏗️
 
@@ -53,11 +52,11 @@ When creating the border radius for the card, I stumbled upon an issue:
 
 ![Defective border radius](./readme-images/image1.png)
 
+The border-radius of the card and that of the image is off, even though they are set to the same value.
+
 ![](./readme-images/image2.png)
 
 ![](./readme-images/image3.png)
-
-The border-radius of the card and that of the image is off, even though they are set to the same value.
 
 But there is a simple fix to that. Simply set the border-radius of the outer container(in this case `.card`), to that of the inner container(`.card__image`) + the padding of the outer container
 
